@@ -1,0 +1,384 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Алексей Черновский</title>
+<meta name="description" content="Алексей Черновский — маркетинговая стратегия и развитие брендов.">
+<script>
+  /* при обновлении всегда начинаем с начала страницы */
+  if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
+  if (location.hash) history.replaceState(null, '', location.pathname + location.search);
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=JetBrains+Mono:wght@400;500&family=Golos+Text:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ========== ЗАКРЕПЛЁННАЯ ШАПКА / ГЛАВНЫЙ ЭКРАН ========== -->
+<div class="topfade" aria-hidden="true"></div>
+
+<a class="hero-name" href="#top" aria-label="Алексей Черновский — наверх">
+  <span class="hero-name__line" data-line="1">Алексей</span>
+  <span class="hero-name__line" data-line="2">Черновский</span>
+</a>
+
+<div class="hero-emblem" aria-hidden="true">
+  <svg class="eye" viewBox="0 0 440 200"></svg>
+</div>
+
+<nav class="hero-nav" aria-label="Разделы">
+  <a href="#about" style="--x:.205;--y:.045">Об <br>Алексее</a>
+  <a href="#works" style="--x:.43;--y:.085">Проекты</a>
+  <a href="#expertise" style="--x:.19;--y:.535">Экспертиза</a>
+  <a href="#contact" style="--x:.69;--y:.535">Контакт</a>
+</nav>
+
+<nav class="mini-nav" aria-label="Меню">
+  <div><a href="#manifest">Манифест</a> <i>*</i> <a href="#works">Проекты</a></div>
+  <div><a href="#expertise">Экспертиза</a> <i>*</i> <a href="#process">Процесс</a></div>
+  <div><a href="#about">Об Алексее</a> <i>*</i> <a href="#contact">Контакт</a></div>
+  <button class="menu-btn" type="button" aria-expanded="false" aria-controls="menu">Меню</button>
+</nav>
+
+<!-- полноэкранное меню для телефона -->
+<div class="menu" id="menu" role="dialog" aria-modal="true" aria-label="Меню" inert>
+  <div class="menu__top">
+    <span>Алексей Черновский</span>
+    <button class="menu__close" type="button">Закрыть</button>
+  </div>
+  <nav class="menu__nav" aria-label="Разделы">
+    <a href="#manifest"><b>01</b><span>Манифест</span></a>
+    <a href="#works"><b>02</b><span>Проекты</span></a>
+    <a href="#expertise"><b>03</b><span>Экспертиза</span></a>
+    <a href="#process"><b>04</b><span>Процесс</span></a>
+    <a href="#about"><b>05</b><span>Об Алексее</span></a>
+    <a href="#contact"><b>06</b><span>Контакт</span></a>
+  </nav>
+  <a class="menu__tg" href="https://t.me/kiwnt1" target="_blank" rel="noopener">Telegram @kiwnt1 ↗</a>
+</div>
+
+<div class="scrollcue" aria-hidden="true">
+  <span>Листайте</span>
+  <i class="scrollcue__track"><b></b></i>
+</div>
+
+<main id="top">
+
+  <!-- ========== 01. ПЕРВЫЙ ЭКРАН ========== -->
+  <section class="stage" aria-label="Алексей Черновский — маркетинговая стратегия и развитие брендов">
+    <div class="stage__lede">
+      <p class="stage__spec">Маркетинговая стратегия<br>и развитие брендов</p>
+      <p class="stage__phrase">Создаю стратегии, которые превращают бренды в&nbsp;выбор людей.</p>
+    </div>
+  </section>
+
+  <!-- ========== 02. МАНИФЕСТ ========== -->
+  <section class="manifest" id="manifest">
+    <p class="kicker" data-rise>Манифест</p>
+    <blockquote class="manifest__text" data-rise><span>«Сильный бренд не&nbsp;борется за&nbsp;внимание. Он&nbsp;становится частью жизни людей»</span></blockquote>
+    <p class="manifest__body" data-rise>Маркетинг начинается с&nbsp;понимания того, почему человек выбирает один бренд вместо другого. Моя задача — найти эту причину, превратить её&nbsp;в&nbsp;стратегию и&nbsp;связать с&nbsp;конкретными бизнес-целями.</p>
+  </section>
+
+  <!-- ========== 03. ИЗБРАННЫЕ ПРОЕКТЫ ========== -->
+  <section class="works" id="works">
+    <h2 class="mega" data-rise><span>Проекты</span></h2>
+    <p class="works__note" data-rise>Кейсы ниже — демонстрационные концепты. Они показывают ход мысли и&nbsp;подход, а&nbsp;не&nbsp;реальные проекты для клиентов.</p>
+
+    <!-- 01 -->
+    <article class="case case--a">
+      <div class="win case__vis" data-rise>
+        <header class="win__bar"><span class="dots"></span><span class="win__title">Полночь · ночная доставка</span></header>
+        <div class="art art--night">
+          <div class="night__moon"></div>
+          <div class="night__clock" data-clock>00:00:00</div>
+          <p class="night__head">После<br>полуночи</p>
+          <ul class="night__row"><li>00:00</li><li>01:30</li><li>03:00</li><li>04:30</li><li>06:00</li></ul>
+        </div>
+      </div>
+      <div class="win case__txt" data-rise>
+        <header class="win__bar"><span class="dots"></span></header>
+        <div class="win__body mono">
+          <p class="case__head">«Полночь» — демо-концепт</p>
+          <p><b>Направление</b>Ресторанный бизнес, доставка</p>
+          <p><b>Роль</b>Стратегия, позиционирование</p>
+          <p><b>Задача</b>Отделить ночную доставку от «той же доставки, только позже».</p>
+          <p><b>Идея</b>Ночь — отдельный сценарий, в&nbsp;котором у&nbsp;человека свои правила. Из&nbsp;этого вырастают тон голоса, ассортиментная логика и&nbsp;визуальная система с&nbsp;одним источником света.</p>
+          <p><b>Результат</b>Не заявляется — концептуальный кейс.</p>
+        </div>
+      </div>
+    </article>
+
+    <!-- 02 -->
+    <article class="case case--b">
+      <div class="win case__vis" data-rise>
+        <header class="win__bar"><span class="dots"></span><span class="win__title">Тише · кампания аудиобренда</span></header>
+        <div class="art art--quiet">
+          <svg class="waves" viewBox="0 0 800 450" preserveAspectRatio="none" aria-hidden="true"></svg>
+          <p class="quiet__head">Тише</p>
+        </div>
+      </div>
+      <div class="win case__txt" data-rise>
+        <header class="win__bar"><span class="dots"></span></header>
+        <div class="win__body mono">
+          <p class="case__head">«Тише» — демо-концепт</p>
+          <p><b>Направление</b>Коммуникационная кампания</p>
+          <p><b>Роль</b>Креативная концепция, кампания</p>
+          <p><b>Задача</b>Выделить аудиобренд в&nbsp;категории, где все соревнуются громкостью и&nbsp;басом.</p>
+          <p><b>Идея</b>Продавать не звук, а&nbsp;возможность выключить город. Одна метафора — шум, который выпрямляется в&nbsp;тишину.</p>
+          <p><b>Результат</b>Не заявляется — концептуальный кейс.</p>
+        </div>
+      </div>
+    </article>
+
+    <!-- 03 -->
+    <article class="case case--c">
+      <div class="win case__vis" data-rise>
+        <header class="win__bar"><span class="dots"></span><span class="win__title">Сорт · система упаковки</span></header>
+        <div class="art art--sort">
+          <div class="sort__top"><span>Сорт</span><span>чай · 6 позиций</span></div>
+          <div class="sort__grid">
+            <div class="pack"><b>01</b><i class="m m--circle"></i><span>Утро</span></div>
+            <div class="pack"><b>02</b><i class="m m--half"></i><span>Работа</span></div>
+            <div class="pack"><b>03</b><i class="m m--tri"></i><span>Дорога</span></div>
+            <div class="pack"><b>04</b><i class="m m--lines"></i><span>Дождь</span></div>
+            <div class="pack"><b>05</b><i class="m m--cross"></i><span>Гости</span></div>
+            <div class="pack"><b>06</b><i class="m m--dot"></i><span>Ночь</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="win case__txt" data-rise>
+        <header class="win__bar"><span class="dots"></span></header>
+        <div class="win__body mono">
+          <p class="case__head">«Сорт» — демо-концепт</p>
+          <p><b>Направление</b>Лайфстайл-бренд, упаковка</p>
+          <p><b>Роль</b>Позиционирование, система упаковки</p>
+          <p><b>Задача</b>Сделать линейку понятной человеку, который не разбирается в&nbsp;сортах — и&nbsp;не обязан.</p>
+          <p><b>Идея</b>Называть позиции по&nbsp;ситуациям, а&nbsp;не&nbsp;по&nbsp;сырью. Знак и&nbsp;номер вместо сложного названия — полку можно прочитать за&nbsp;три секунды.</p>
+          <p><b>Результат</b>Не заявляется — концептуальный кейс.</p>
+        </div>
+      </div>
+    </article>
+
+    <!-- 04 -->
+    <article class="case case--d">
+      <div class="win case__vis" data-rise>
+        <header class="win__bar"><span class="dots"></span><span class="win__title">Район · локальная коммуникация</span></header>
+        <div class="art art--district">
+          <div class="poster"><span class="poster__n">01</span><span class="poster__t">Здесь<br>вас<br>помнят</span><span class="poster__s">ул. Садовая</span></div>
+          <div class="poster poster--red"><span class="poster__n">02</span><span class="poster__t">Ваш<br>обычный<br>— готов</span><span class="poster__s">пр. Мира</span></div>
+          <div class="poster"><span class="poster__n">03</span><span class="poster__t">Пять<br>минут<br>пешком</span><span class="poster__s">наб. Канала</span></div>
+        </div>
+      </div>
+      <div class="win case__txt" data-rise>
+        <header class="win__bar"><span class="dots"></span></header>
+        <div class="win__body mono">
+          <p class="case__head">«Район» — демо-концепт</p>
+          <p><b>Направление</b>Ресторанный бизнес, сеть кофеен</p>
+          <p><b>Роль</b>Коммуникационная стратегия</p>
+          <p><b>Задача</b>Конкурировать с&nbsp;крупными сетями без федерального тона и&nbsp;бюджета.</p>
+          <p><b>Идея</b>Разговор на&nbsp;уровне улицы: каждая точка говорит с&nbsp;соседями о&nbsp;том, что видно из&nbsp;её&nbsp;окна. Масштабируется через систему, а&nbsp;не&nbsp;через одинаковые макеты.</p>
+          <p><b>Результат</b>Не заявляется — концептуальный кейс.</p>
+        </div>
+      </div>
+    </article>
+
+    <!-- 05 -->
+    <article class="case case--e">
+      <div class="win case__vis" data-rise>
+        <header class="win__bar"><span class="dots"></span><span class="win__title">18–24 · исследование аудитории</span></header>
+        <div class="art art--research">
+          <div class="research__dots" aria-hidden="true"></div>
+          <div class="research__cap">
+            <p class="research__big">18–24</p>
+            <p>Иллюстративная модель, не&nbsp;реальные данные</p>
+          </div>
+        </div>
+      </div>
+      <div class="win case__txt" data-rise>
+        <header class="win__bar"><span class="dots"></span></header>
+        <div class="win__body mono">
+          <p class="case__head">«18–24» — демо-концепт</p>
+          <p><b>Направление</b>Электронная коммерция</p>
+          <p><b>Роль</b>Исследование аудитории, инсайты</p>
+          <p><b>Задача</b>Понять молодую аудиторию так, чтобы на&nbsp;выходе были решения, а&nbsp;не&nbsp;портрет «активных и&nbsp;любознательных».</p>
+          <p><b>Идея</b>Сегменты по&nbsp;поведению, а&nbsp;не&nbsp;по&nbsp;возрасту. Каждый инсайт проверяется гипотезой и&nbsp;метрикой.</p>
+          <p><b>Результат</b>Не заявляется — концептуальный кейс.</p>
+        </div>
+      </div>
+    </article>
+  </section>
+
+  <!-- ========== 04. ЭКСПЕРТИЗА ========== -->
+  <section class="expertise" id="expertise">
+    <h2 class="mega" data-rise><span>Экспертиза</span></h2>
+    <ul class="exp">
+      <li class="exp__item" data-rise>
+        <button class="exp__btn" type="button" aria-expanded="false" aria-controls="exp-1">
+          <b>01</b><span class="exp__word">Стратегия</span><i class="exp__plus" aria-hidden="true"></i>
+        </button>
+        <div class="exp__desc" id="exp-1"><div>
+          <p>Позиционирование, исследование рынка, аудитории и&nbsp;поиск точек роста.</p>
+          <ul class="tags"><li>Позиционирование</li><li>Исследования</li><li>Точки роста</li></ul>
+        </div></div>
+      </li>
+      <li class="exp__item" data-rise>
+        <button class="exp__btn" type="button" aria-expanded="false" aria-controls="exp-2">
+          <b>02</b><span class="exp__word">Бренд</span><i class="exp__plus" aria-hidden="true"></i>
+        </button>
+        <div class="exp__desc" id="exp-2"><div>
+          <p>Формирование идентичности, ценности и&nbsp;отличий от&nbsp;конкурентов.</p>
+          <ul class="tags"><li>Идентичность</li><li>Ценности</li><li>Отличия</li></ul>
+        </div></div>
+      </li>
+      <li class="exp__item" data-rise>
+        <button class="exp__btn" type="button" aria-expanded="false" aria-controls="exp-3">
+          <b>03</b><span class="exp__word">Коммуникация</span><i class="exp__plus" aria-hidden="true"></i>
+        </button>
+        <div class="exp__desc" id="exp-3"><div>
+          <p>Креативные концепции, кампании и&nbsp;связь бренда с&nbsp;аудиторией.</p>
+          <ul class="tags"><li>Концепции</li><li>Кампании</li><li>Цифровой маркетинг</li></ul>
+        </div></div>
+      </li>
+      <li class="exp__item" data-rise>
+        <button class="exp__btn" type="button" aria-expanded="false" aria-controls="exp-4">
+          <b>04</b><span class="exp__word">Рост</span><i class="exp__plus" aria-hidden="true"></i>
+        </button>
+        <div class="exp__desc" id="exp-4"><div>
+          <p>Проверка гипотез, анализ эффективности и&nbsp;поиск новых возможностей для бизнеса.</p>
+          <ul class="tags"><li>Гипотезы</li><li>Аналитика</li><li>Масштабирование</li></ul>
+        </div></div>
+      </li>
+    </ul>
+  </section>
+
+  <!-- ========== 05. ПРОЦЕСС ========== -->
+  <section class="process" id="process">
+    <h2 class="mega" data-rise><span>Процесс</span></h2>
+    <p class="process__intro" data-rise>Понятный процесс вместо абстрактных обещаний — от&nbsp;исследования до&nbsp;анализа результатов.</p>
+    <div class="steps">
+      <svg class="steps__line" aria-hidden="true"><path class="steps__bg"/><path class="steps__fg" pathLength="1"/></svg>
+      <ol class="steps__list">
+      <li class="step"><i class="step__dot"></i><h3 class="step__t"><span>01 / Исследование</span></h3><p>Изучение бизнеса, рынка, конкурентов и&nbsp;аудитории.</p></li>
+      <li class="step"><i class="step__dot"></i><h3 class="step__t"><span>02 / Стратегия</span></h3><p>Определение позиции бренда, целей и&nbsp;ключевых решений.</p></li>
+      <li class="step"><i class="step__dot"></i><h3 class="step__t"><span>03 / Реализация</span></h3><p>Превращение стратегии в&nbsp;конкретные коммуникации и&nbsp;маркетинговые действия.</p></li>
+      <li class="step"><i class="step__dot"></i><h3 class="step__t"><span>04 / Анализ</span></h3><p>Оценка результатов, проверка гипотез и&nbsp;корректировка решений.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ========== 06. ОБ АЛЕКСЕЕ ========== -->
+  <section class="about" id="about">
+    <h2 class="mega" data-rise><span>Об Алексее</span></h2>
+
+    <div class="about__grid">
+      <figure class="win portrait" data-rise>
+        <header class="win__bar"><span class="dots"></span><span class="win__title">portrait.jpg</span></header>
+        <div class="portrait__img">
+          <!-- TODO: заменить на портрет Алексея: <img src="..." alt="Алексей Черновский"> -->
+          <figcaption>Место для портрета<br>заменить на фото</figcaption>
+        </div>
+      </figure>
+
+      <div class="about__text">
+        <p class="about__p" data-rise>Маркетолог и стратег, 26&nbsp;лет. Работаю на&nbsp;пересечении стратегии, брендинга, продукта и&nbsp;современной культуры.</p>
+        <p class="about__p" data-rise>Интерес к&nbsp;маркетингу начался не&nbsp;с&nbsp;рекламы, а&nbsp;с&nbsp;вопроса: почему одни компании остаются поставщиками, а&nbsp;другие становятся частью повседневной жизни?</p>
+        <p class="about__p" data-rise>Путь — от&nbsp;отдельных маркетинговых задач к&nbsp;позиционированию, поиску точек роста, коммуникационной стратегии и&nbsp;кампаниям, которые соединяют цели бизнеса с&nbsp;интересами аудитории.</p>
+      </div>
+    </div>
+
+    <!-- опыт: стена брендов -->
+    <div class="wall">
+      <p class="kicker kicker--muted" data-rise>В профессиональном опыте — проекты, связанные с&nbsp;брендами</p>
+      <ul class="wall__grid">
+        <li class="wm wm--1" data-rise><span>Ozon</span></li>
+        <li class="wm wm--2" data-rise><span>Wildberries</span></li>
+        <li class="wm wm--3" data-rise><span>Додо<br>Пицца</span></li>
+        <li class="wm wm--4" data-rise><span>Lunacy</span></li>
+        <li class="wm wm--5" data-rise><span>«Безумно»</span></li>
+        <li class="wm wm--6" data-rise><em>и другие бренды<br>российской потребительской<br>культуры</em></li>
+      </ul>
+    </div>
+
+    <!-- принципы, категории, CV -->
+    <div class="desk">
+      <article class="win desk__a" data-rise>
+        <header class="win__bar"><span class="dots"></span></header>
+        <div class="win__body">
+          <h3 class="label">Принципы</h3>
+          <ol class="list list--num">
+            <li>Стратегия опирается на&nbsp;реальные особенности аудитории.</li>
+            <li>Сильный бренд отличается не&nbsp;только визуально, но&nbsp;и&nbsp;по&nbsp;существу.</li>
+            <li>Креатив ценен, когда решает конкретную задачу.</li>
+            <li>Долгосрочная ценность важнее короткого всплеска внимания.</li>
+            <li>Решения проверяются результатами, а&nbsp;не&nbsp;ощущениями.</li>
+          </ol>
+        </div>
+      </article>
+
+      <article class="win desk__b" data-rise>
+        <header class="win__bar"><span class="dots"></span></header>
+        <div class="win__body">
+          <h3 class="label">Категории бизнеса</h3>
+          <ul class="list">
+            <li>Электронная коммерция</li>
+            <li>Маркетплейсы</li>
+            <li>Доставка</li>
+            <li>Лайфстайл-бренды</li>
+            <li>Проекты для молодой аудитории</li>
+          </ul>
+        </div>
+      </article>
+
+      <!-- TODO: подставить ссылку на реальный PDF -->
+      <a class="file desk__c" href="#contact" data-rise>
+        <svg viewBox="0 0 48 60" aria-hidden="true"><path d="M4 0h28l16 16v40a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V4a4 4 0 0 1 4-4z" fill="#e62e1b"/><path d="M32 0v12a4 4 0 0 0 4 4h12z" fill="#8f1a0f"/><path d="M12 32h24M12 40h18" stroke="#0d0d0d" stroke-width="3.5" stroke-linecap="round"/></svg>
+        <span>Chernovsky-CV<br>2026.pdf</span>
+      </a>
+    </div>
+
+    <!-- наблюдения о рынке -->
+    <div class="win term" data-rise>
+      <header class="win__bar"><span class="dots"></span><span class="win__title">наблюдения_о_рынке.txt</span></header>
+      <div class="term__body">
+        <p class="term__meta"><span>&gt;_ cat наблюдения_о_рынке.txt</span><span data-clock>00:00:00</span></p>
+        <p class="term__text" data-type>01. Одного качественного продукта уже недостаточно.
+
+02. Человек выбирает не только товар или услугу — он выбирает опыт, отношение и визуальный язык.
+
+03. Бренд выигрывает, когда совпадает с тем, как человек видит себя.
+
+04. Маркетинг требует понимать одновременно цифры и культуру.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== 07. КОНТАКТ / ФИНАЛ ========== -->
+  <section class="final" id="contact">
+    <p class="final__kicker" data-rise>Контакт</p>
+    <h2 class="final__title" data-rise><span>Есть задача, которую стоит решить?</span></h2>
+    <p class="final__lede" data-rise>Расскажите о&nbsp;бренде и&nbsp;задаче — обсудим, с&nbsp;чего начать.</p>
+    <!-- TODO: заменить почту на реальную -->
+    <a class="final__btn" href="https://t.me/kiwnt1" target="_blank" rel="noopener" data-rise>Обсудить проект <span aria-hidden="true">↗</span></a>
+    <ul class="final__links" data-rise>
+      <li><a href="https://t.me/kiwnt1" target="_blank" rel="noopener">Telegram @kiwnt1 ↗</a></li>
+      <li><a href="mailto:hello@example.com">hello@example.com ↗</a></li>
+      <li><a href="#contact">Резюме, PDF ↗</a></li>
+    </ul>
+
+    <footer class="foot">
+      <svg class="seal" viewBox="0 0 200 200" aria-hidden="true">
+        <defs><path id="sealPath" d="M100,100 m-78,0 a78,78 0 1,1 156,0 a78,78 0 1,1 -156,0"/></defs>
+        <g class="seal__ring"><text><textPath href="#sealPath" textLength="488">АЛЕКСЕЙ ЧЕРНОВСКИЙ · МАРКЕТИНГ · СТРАТЕГИЯ · БРЕНДЫ ·</textPath></text></g>
+        <g class="seal__eye" transform="translate(56 80) scale(.2)"></g>
+      </svg>
+      <p class="foot__meta">© 2026 Алексей Черновский<br>Кейсы на сайте — демонстрационные концепты</p>
+    </footer>
+  </section>
+</main>
+
+<script src="main.js"></script>
+</body>
+</html>
